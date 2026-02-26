@@ -1,0 +1,201 @@
+/**
+ * CSS Custom Properties (Variables) for FitZone Gym
+ * These variables can be dynamically controlled from the admin panel
+ */
+
+:root {
+    /* ====================================
+       PRIMARY COLORS
+       ==================================== */
+    --primary-color: #f97316;
+    --secondary-color: #dc2626;
+    --accent-color: #f59e0b;
+
+    /* ====================================
+       TEXT COLORS
+       ==================================== */
+    --text-primary: #1f2937;
+    --text-secondary: #6b7280;
+    --text-light: #9ca3af;
+    --text-white: #ffffff;
+    --text-dark: #111827;
+
+    /* ====================================
+       BACKGROUND COLORS
+       ==================================== */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f3f4f6;
+    --bg-dark: #1f2937;
+    --bg-light: #f9fafb;
+    --bg-gradient-start: #fff8f0;
+    --bg-gradient-end: #ffffff;
+
+    /* ====================================
+       CARD & BOX COLORS
+       ==================================== */
+    --card-bg: #ffffff;
+    --card-border: #e5e7eb;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    --card-hover-shadow: rgba(0, 0, 0, 0.15);
+
+    /* ====================================
+       BUTTON COLORS
+       ==================================== */
+    --btn-primary-bg: #f97316;
+    --btn-primary-text: #ffffff;
+    --btn-primary-hover: #ea580c;
+    --btn-secondary-bg: #6b7280;
+    --btn-secondary-text: #ffffff;
+    --btn-secondary-hover: #4b5563;
+
+    /* ====================================
+       TITLE & HEADING COLORS
+       ==================================== */
+    --title-color: #1f2937;
+    --subtitle-color: #6b7280;
+    --heading-gradient-start: #f97316;
+    --heading-gradient-end: #dc2626;
+
+    /* ====================================
+       LINK COLORS
+       ==================================== */
+    --link-color: #f97316;
+    --link-hover: #dc2626;
+    --link-visited: #dc2626;
+
+    /* ====================================
+       FORM COLORS
+       ==================================== */
+    --input-bg: #ffffff;
+    --input-border: #d1d5db;
+    --input-text: #1f2937;
+    --input-focus-border: #f97316;
+    --input-placeholder: #9ca3af;
+
+    /* ====================================
+       BADGE & STATUS COLORS
+       ==================================== */
+    --badge-success-bg: #10b981;
+    --badge-success-text: #ffffff;
+    --badge-danger-bg: #ef4444;
+    --badge-danger-text: #ffffff;
+    --badge-warning-bg: #f59e0b;
+    --badge-warning-text: #ffffff;
+    --badge-info-bg: #3b82f6;
+    --badge-info-text: #ffffff;
+
+    /* ====================================
+       NAVBAR COLORS
+       ==================================== */
+    --navbar-bg: #ffffff;
+    --navbar-text: #1f2937;
+    --navbar-hover: #f97316;
+    --navbar-active: #dc2626;
+    --navbar-shadow: rgba(0, 0, 0, 0.05);
+
+    /* ====================================
+       FOOTER COLORS
+       ==================================== */
+    --footer-bg: #1f2937;
+    --footer-text: #d1d5db;
+    --footer-heading: #ffffff;
+    --footer-link: #f97316;
+    --footer-link-hover: #fb923c;
+
+    /* ====================================
+       SIDEBAR (ADMIN) COLORS
+       ==================================== */
+    --sidebar-bg: #1f2937;
+    --sidebar-text: #ffffff;
+    --sidebar-hover: rgba(249, 115, 22, 0.1);
+    --sidebar-active: #f97316;
+    --sidebar-border: rgba(255, 255, 255, 0.1);
+
+    /* ====================================
+       TABLE COLORS
+       ==================================== */
+    --table-header-bg: #f9fafb;
+    --table-header-text: #6b7280;
+    --table-border: #e5e7eb;
+    --table-hover-bg: #f3f4f6;
+
+    /* ====================================
+       ALERT COLORS
+       ==================================== */
+    --alert-success-bg: #d1fae5;
+    --alert-success-text: #065f46;
+    --alert-success-border: #10b981;
+    --alert-danger-bg: #fee2e2;
+    --alert-danger-text: #991b1b;
+    --alert-danger-border: #ef4444;
+    --alert-warning-bg: #fef3c7;
+    --alert-warning-text: #92400e;
+    --alert-warning-border: #f59e0b;
+    --alert-info-bg: #dbeafe;
+    --alert-info-text: #1e40af;
+    --alert-info-border: #3b82f6;
+
+    /* ====================================
+       HERO SECTION COLORS
+       ==================================== */
+    --hero-overlay: rgba(31, 41, 55, 0.7);
+    --hero-text: #ffffff;
+    --hero-subtitle: #f3f4f6;
+
+    /* ====================================
+       SERVICE CARD COLORS
+       ==================================== */
+    --service-card-bg: #ffffff;
+    --service-card-border: #e5e7eb;
+    --service-card-icon-bg: #fff8f0;
+    --service-card-icon-color: #f97316;
+    --service-card-hover-border: #f97316;
+
+    /* ====================================
+       PLAN CARD COLORS
+       ==================================== */
+    --plan-card-bg: #ffffff;
+    --plan-card-border: #e5e7eb;
+    --plan-card-popular-bg: #fff8f0;
+    --plan-card-popular-border: #f97316;
+    --plan-card-popular-badge: #f97316;
+
+    /* ====================================
+       TRAINER CARD COLORS
+       ==================================== */
+    --trainer-card-bg: #ffffff;
+    --trainer-card-overlay: rgba(0, 0, 0, 0.7);
+    --trainer-card-text: #ffffff;
+
+    /* ====================================
+       EXERCISE CARD COLORS
+       ==================================== */
+    --exercise-card-bg: #ffffff;
+    --exercise-card-border: #e5e7eb;
+    --exercise-card-difficulty-beginner: #10b981;
+    --exercise-card-difficulty-intermediate: #f59e0b;
+    --exercise-card-difficulty-advanced: #ef4444;
+
+    /* ====================================
+       MISC COLORS
+       ==================================== */
+    --border-light: #e5e7eb;
+    --border-dark: #d1d5db;
+    --divider: #e5e7eb;
+    --overlay-light: rgba(255, 255, 255, 0.9);
+    --overlay-dark: rgba(0, 0, 0, 0.5);
+    --shadow-sm: rgba(0, 0, 0, 0.05);
+    --shadow-md: rgba(0, 0, 0, 0.1);
+    --shadow-lg: rgba(0, 0, 0, 0.15);
+    --shadow-xl: rgba(0, 0, 0, 0.25);
+}
+
+/* Dark theme support (optional - for future use) */
+[data-theme="dark"] {
+    --bg-primary: #111827;
+    --bg-secondary: #1f2937;
+    --text-primary: #f3f4f6;
+    --text-secondary: #d1d5db;
+    --card-bg: #1f2937;
+    --card-border: #374151;
+}

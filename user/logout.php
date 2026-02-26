@@ -1,4 +1,9 @@
 <?php
-require_once '../includes/auth.php';
+require_once "../includes/auth.php";
+
+// Logout user
 logoutUser();
-redirect(SITE_URL . '/login.php');
+
+// Redirect to homepage
+redirect(SITE_URL . "/index.php");
+?>

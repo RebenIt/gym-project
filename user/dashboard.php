@@ -57,8 +57,8 @@ $pageTitle = $lang === 'ku' ? 'داشبۆرد' : 'Dashboard';
         <a href="../index.php" class="logo"><?php echo getSetting('site_name', $lang); ?></a>
         <ul class="nav-links">
             <li><a href="../index.php"><?php echo $lang === 'ku' ? 'ماڵەوە' : 'Home'; ?></a></li>
-            <li><a href="../pages/games.php"><?php echo $lang === 'ku' ? 'یاریەکان' : 'Games'; ?></a></li>
-            <li><a href="../pages/tips.php"><?php echo $lang === 'ku' ? 'ئامۆژگاریەکان' : 'Tips'; ?></a></li>
+            <li><a href="../games.php"><?php echo $lang === 'ku' ? 'یاریەکان' : 'Games'; ?></a></li>
+            <li><a href="../tips.php"><?php echo $lang === 'ku' ? 'ئامۆژگاریەکان' : 'Tips'; ?></a></li>
             <li><a href="dashboard.php" class="active"><?php echo $lang === 'ku' ? 'داشبۆرد' : 'Dashboard'; ?></a></li>
         </ul>
         <div class="nav-actions">
@@ -214,15 +214,15 @@ $pageTitle = $lang === 'ku' ? 'داشبۆرد' : 'Dashboard';
                     <div class="card" style="margin-top: 20px;">
                         <div class="card-body">
                             <h4 style="margin-bottom: 20px;"><?php echo $lang === 'ku' ? 'لینکە خێراکان' : 'Quick Links'; ?></h4>
-                            <a href="../pages/games.php" class="list-item" style="text-decoration: none; color: var(--light);">
+                            <a href="../games.php" class="list-item" style="text-decoration: none; color: var(--light);">
                                 <span>🎯 <?php echo $lang === 'ku' ? 'هەموو یاریەکان' : 'All Games'; ?></span>
                                 <span>→</span>
                             </a>
-                            <a href="../pages/beginner.php" class="list-item" style="text-decoration: none; color: var(--light);">
+                            <a href="../beginners.php" class="list-item" style="text-decoration: none; color: var(--light);">
                                 <span>🌟 <?php echo $lang === 'ku' ? 'پڕۆگرامی سەرەتایی' : 'Beginner Program'; ?></span>
                                 <span>→</span>
                             </a>
-                            <a href="../pages/trainers.php" class="list-item" style="text-decoration: none; color: var(--light);">
+                            <a href="../trainers.php" class="list-item" style="text-decoration: none; color: var(--light);">
                                 <span>👨‍🏫 <?php echo $lang === 'ku' ? 'ڕاهێنەرەکان' : 'Trainers'; ?></span>
                                 <span>→</span>
                             </a>
