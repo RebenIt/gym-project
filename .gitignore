@@ -1,0 +1,10 @@
+# Word/Office temporary lock files
+~$*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
